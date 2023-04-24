@@ -23,14 +23,14 @@ const CartItem = (props) => {
         <h1>{name}</h1>
         <div className="flex">
           <span>
-            ${price} x {quantity}
+            ₹{price} x {quantity}
           </span>
           <div className="twoBtns">
             <button onClick={removeCartHandler}>-</button>
             <button onClick={addToCartHandler}>+</button>
           </div>
         </div>
-        <div className="totalPrice">Total: ${totalPrice}</div>
+        <div className="totalPrice">Total: ₹{totalPrice}</div>
       </div>
     </div>
   );

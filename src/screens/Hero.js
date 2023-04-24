@@ -28,10 +28,10 @@ const Hero = () => {
             <span className="span">At The delicious</span>
           </h1>
           <p>
-            Find our perfect and delicious food, and enjoy it. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit.
+            Find our perfect and delicious food, and enjoy it.
           </p>
           <a>Get started</a>
+          {/* <a href="\categories">Get started</a> */}
         </div>
         <div className="image_section">
           <img src={heroImg} alt="hero" />

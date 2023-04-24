@@ -23,7 +23,7 @@ const Checkout = (props) => {
             <div className="item_description">
               <img src={item.image} alt={item.title} />
               <h1>{item.title}</h1>
-              <h3>${item.price}</h3>
+              <h3>₹{item.price}</h3>
 
               <span className="item__total">
                 Total Price:
@@ -34,7 +34,7 @@ const Checkout = (props) => {
                     fontSize: "20px",
                   }}
                 >
-                  {`${item.quantity} * $${item.price} = $${item.totalPrice}`}
+                  {`${item.quantity} * ₹${item.price} = ₹${item.totalPrice}`}
                 </span>
               </span>
             </div>

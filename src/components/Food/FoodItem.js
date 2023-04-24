@@ -22,7 +22,7 @@ const FoodItem = (props) => {
           <h1>{name}</h1>
           <p>{description}</p>
           <span style={{ fontSize: "24px", marginBottom: "20px" }}>
-            ${price}
+            ₹{price}
           </span>
         </div>
         <button className="btn">

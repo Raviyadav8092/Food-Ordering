@@ -15,7 +15,8 @@
     height: 100vh;
     float: right;
     border-radius: 30px 0 0 30px;
-    padding: 40px 10px;
+    padding: 0px 30px;
+    /* padding: 180px 130px; */
     overflow: auto;
     position: relative;
 }

@@ -17,7 +17,7 @@ const Data = [
     image: picO,
     name: "Delicious pizza capricciosa",
     description: "A delicious pizza",
-    price: 3,
+    price: 300,
     category: "Pizza",
   },
 
@@ -26,7 +26,7 @@ const Data = [
     image: picT,
     name: "Famous Pizza Margherita ",
     description: "A delicious Margherita",
-    price: 6,
+    price: 350,
     category: "Pizza",
   },
 
@@ -35,7 +35,7 @@ const Data = [
     image: picThr,
     name: "Cheese pizza ",
     description: "A beautiful Cheese pizza",
-    price: 8,
+    price: 380,
     category: "Pizza",
   },
   {
@@ -43,7 +43,7 @@ const Data = [
     image: jab,
     name: "Apple",
     description: "A sweat apple ",
-    price: 2,
+    price: 60,
     category: "Fruit",
   },
   {
@@ -51,7 +51,7 @@ const Data = [
     image: jag,
     name: "Strawberrie",
     description: "A beautiful Strawberries ",
-    price: 2,
+    price: 80,
     category: "Fruit",
   },
   {
@@ -59,7 +59,7 @@ const Data = [
     image: kiwi,
     name: "Kiwi",
     description: "Delicious kiwi ",
-    price: 3,
+    price: 90,
     category: "Fruit",
   },
   {
@@ -67,7 +67,7 @@ const Data = [
     image: limun,
     name: "Lemon",
     description: "Amazing lemon ",
-    price: 4,
+    price: 40,
     category: "Fruit",
   },
   {
@@ -75,7 +75,7 @@ const Data = [
     image: salO,
     name: "Green Salad",
     description: "A beautiful green salad ",
-    price: 6,
+    price: 60,
     category: "Salad",
   },
   {
@@ -83,7 +83,7 @@ const Data = [
     image: salT,
     name: "Vegetable salad",
     description: "A beautiful Vegetables ",
-    price: 8,
+    price: 80,
     category: "Salad",
   },
   {
@@ -91,7 +91,7 @@ const Data = [
     image: salVoc,
     name: "Fruit Salad",
     description: "A sweat fruit salad",
-    price: 9,
+    price: 90,
     category: "Salad",
   },
   {
@@ -99,7 +99,7 @@ const Data = [
     image: kapucino,
     name: "Esspresso",
     description: "A beautiful Esspresso",
-    price: 4,
+    price: 140,
     category: "Coffe",
   },
   {
@@ -107,7 +107,7 @@ const Data = [
     image: kafa,
     name: "Cappuccino",
     description: "A beautiful Cappuccino",
-    price: 2,
+    price: 120,
     category: "Coffe",
   },
 ];

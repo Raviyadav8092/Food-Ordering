@@ -76,33 +76,26 @@ const CheckoutForm = (props) => {
     });
   };
 
-  const FirstNameControlClasses = `control ${
-    formInputsValidity.FirstName ? "" : "invalid"
-  }`;
+  const FirstNameControlClasses = `control ${formInputsValidity.FirstName ? "" : "invalid"
+    }`;
 
-  const LastNameControlClasses = `control ${
-    formInputsValidity.LastName ? "" : "invalid"
-  }`;
+  const LastNameControlClasses = `control ${formInputsValidity.LastName ? "" : "invalid"
+    }`;
 
-  const AddressControlClasses = `control ${
-    formInputsValidity.Address ? "" : "invalid"
-  }`;
+  const AddressControlClasses = `control ${formInputsValidity.Address ? "" : "invalid"
+    }`;
 
-  const CityControlClasses = `control ${
-    formInputsValidity.City ? "" : "invalid"
-  }`;
+  const CityControlClasses = `control ${formInputsValidity.City ? "" : "invalid"
+    }`;
 
-  const CountryControlClasses = `control ${
-    formInputsValidity.Country ? "" : "invalid"
-  }`;
+  const CountryControlClasses = `control ${formInputsValidity.Country ? "" : "invalid"
+    }`;
 
-  const PostalControlClasses = `control ${
-    formInputsValidity.PostalCode ? "" : "invalid"
-  }`;
+  const PostalControlClasses = `control ${formInputsValidity.PostalCode ? "" : "invalid"
+    }`;
 
-  const PhoneControlClasses = `control ${
-    formInputsValidity.Phone ? "" : "invalid"
-  }`;
+  const PhoneControlClasses = `control ${formInputsValidity.Phone ? "" : "invalid"
+    }`;
 
   return (
     <form className="form" onSubmit={confirmHandler}>
